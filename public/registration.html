@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="headalign">
+        <div id="headtitle">
+          <a href="index.html" style='color:red;'><label>NextGen Booking</label></a>
+        </div>
+
+        <div id="headsub">
+          A Carr's Holidays Company
+        </div>
+      </div>
+
+      <div id="loginhead">
+        <a href="login.html"><label>Customer Login</label>
+          <div>
+            </a><img src="pic/concept logo.png">
+          </div>
+      </div>
+    </div>
+    <!-- end header-->
+
+    <div id="registrationform">
+
+      <div id="registrationheader">
+        <h1> RESGISTRATION </h1>
+      </div>
+
+      <div id="centerregistration">
+        <h4> Please Fill Out All Feilds Accurately</h4>
+        <form action="registration.html" method="post" action="/">
+          <label for="firstName">First Name:*</label>
+          <input type="text" id="fName" name="firstName" required><br>
+
+          <label for="lastName">Last Name*:</label>
+          <input type="text" id="lName" name="lastName" required><br>
+          <br>
+
+          <label for="gender"> Gender:*</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+
+          <label for="email">Email Address:*</label>
+          <input type="text" id="email" name="email" required><br><br>
+
+          <label for="phoneNum">Phone Number (US):</label>
+          <input type="tel" id="phoneNum" name="phoneNum" placeholder="xxxxxxxxxx"
+            pattern="[0-9]{10}"><br>
+
+          <label for="phoneNumbInt">Phone Number (Int):</label>
+          <input type="tel" id="phoneNum" name="phoneNumInt" placeholder="xxxxxxxxxxxxxxx"
+            pattern="[0-9]{15}">
+          <br>
+
+          <label for="bDay">Birthday:*</label>
+          <input type="date" id="bday" name="bDay" required><br>
+
+          <label for="addy1">Address line 1:*</label>
+          <input type="text" id="addy1" name="addy1" required><br>
+
+          <label for="addy2">Address line 2:*</label>
+          <input type="text" id="addy2" name="addy2"><br>
+
+          <label for="customerCity">City:*</label>
+          <input type="text" id="customerCity" name="customerCity" required><br>
+
+          <label for="customerState">State or Province:*</label>
+          <input type="text" id="customerState" name="customerState" required><br>
+
+          <label for="customerCountry">Counrty:*</label>
+          <input type="text" id="customerCountry" name="customerCountry" required><br>
+
+          <label for="customerZip">Zip Code:*</label>
+          <input type="text" id="customerZip" name="customerZip" required><br>
+          <br>
+
+          <label for="knownTid">Known Traveler ID:</label>
+          <input type="text" id="knownTid" name="knownTid" pattern="[0-9]{9}"><br>
+          <br>
+
+          <h2> Passport Information</h2> <h3>(Optional)</h3>
+
+          <label for="ppNum"> Passport Number:</label>
+          <input type="text" id="ppNum" name="ppNum"><br>
+
+          <label for="ppExpDate"> Passport expiration:</label>
+          <input type="date" id="ppExpDate" name="ppExpDate"><br>
+
+          <label for="ppNationality"> Nationality:</label>
+          <input type="text" id="ppNationality" name="ppNationality"><br>
+
+          <label for="ppCountry"> Country of Issuance:</label>
+          <input type="text" id="ppCountry" name="ppCountry"><br>
+          <br>
+
+          <h2> Create Password </h2> <h4> 8 Character minimum, use at least one
+          number, one capital letter, and one lower case letter.</h4>
+
+          <label for="password"> Password:</label>
+          <input type="password" id="password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+          <br>
+          <br>
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

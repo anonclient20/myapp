@@ -1,0 +1,434 @@
+.header {
+  border: 3px solid black;
+  height: 90px;
+  color:red;
+  background-color: #000033;
+  font-family: impact;
+
+}
+
+.footer {
+  border: 3px solid black;
+  height:130px;
+  color:white;
+  background-color: #000033;
+  font-family: impact;
+
+}
+
+.footerel {
+  float: left;
+  margin-right: 8%;
+
+}
+
+.footerel2 {
+  float: left;
+
+}
+
+.footerel3 {
+  float: left;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.headalign{
+  float: left;
+}
+
+#headtitle{
+  border: 3px solid red;
+  font-size: 200%;
+}
+
+#headsub{
+  height: 20%;
+  margin-top: 10px;
+  color: white;
+}
+
+#loginhead{
+  float: right;
+  margin-top: 5px;
+  width: 200px;
+  text-align: center;
+  font-size: 100%;
+}
+
+#loginhead img{
+  width: 40%;
+  margin-top: 5px;
+}
+
+
+
+
+.homemenu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.homemenu ul li{
+  list-style-type: none;
+  text-align: center;
+  background-color: #000033;
+  font-size: 130%;
+  height:200px;
+  width:300px;
+  border: 3px solid grey;
+  border-radius: 5%;
+  color: red;
+  font-family: impact;
+  float:left;
+  margin:30px;
+
+}
+
+.midPageAd{
+  width: 70%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 120%;
+  height 200px;
+  border: 3px solid black;
+
+
+}
+
+.blogs{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.blogs ul li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 130%;
+  border: 3px solid black;
+  color: red;
+  font-family: impact;
+  float:left;
+  margin:50px;
+
+}
+
+a{
+  color: red
+
+}
+
+#bookingsiteheader{
+  color:red;
+  font-size: 150%;
+  font-family: impact;
+
+}
+
+#bookingsiteheader p {
+  text-align: center;
+}
+
+.bookingsubt{
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+
+}
+
+.bookingheader{
+  text-align: center;
+  font-size: 200%;
+  height: 50px;
+  color:red;
+  font-family: impact;
+  margin: 50px;
+
+}
+
+.airbookingform{
+  color: white;
+  background-color: #000033;
+  font-size: 140%;
+  width: 400px;
+  height:330px;
+  margin: auto;
+  border: 3px solid grey;
+}
+
+#airdep{
+  width:310%;
+  margin-left: 5px;
+}
+
+#airdes{
+  width:309%;
+  margin-left: 5px;
+}
+
+#airdepdate{
+  float: left;
+  width:45%;
+  font-size: 80%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+#airredate{
+  float: left;
+  width:45%;
+  font-size: 80%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.airbookingform p{
+  float: left;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 15px;
+  font-size: 80%;
+}
+
+#airsub{
+  margin-top: 28%;
+  text-align: center;
+}
+
+#airpax{
+  float:left;
+  font-size: 80%;
+  margin-left: 5px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#oneway{
+  margin-top: 7%;
+  }
+
+#hotbookingform{
+  color: white;
+  background-color: #000033;
+  border: 3px solid gray;
+  width: 375px;
+  height:310px;
+  margin: auto;
+  display: block;
+
+}
+#hotbookingform p{
+  float:left;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 100%;
+}
+
+#hotbookingform label{
+  font-size: 110%;
+  display:block;
+  margin-left: 10px;
+}
+
+#hoteldest{
+  width: 90%;
+  height: 30px;
+  margin: 21px;
+
+}
+
+#hotelrooms{
+  margin-top: 25px;
+}
+#ttlrooms{
+  margin-left: 21px;
+  margin-bottom: 10px;
+  margin-right: 141px;
+}
+input[type=text]{
+  width:30%;
+  margin-right: 30px;
+  margin-top: 12px;
+
+}
+
+input[type="date"]{
+  margin: 20px;
+
+}
+
+input[type=button], input[type=submit]{
+  background-color: red;
+  border: 3px solid white;
+  color: white;
+  padding: 16px 32px;
+  margin-left: 15px;
+
+}
+
+.loginheader{
+  text-align: center;
+  font-size: 200%;
+  height: 50px;
+  color:red;
+  font-family: impact;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.logcontainer{
+  background-color: #000033;
+  margin:auto;
+  width: 420px;
+  height: 140px;
+  border: 3px solid grey;
+}
+
+.logcontainer button{
+  background-color: red;
+  float:left;
+  border: 3px solid white;
+  color: white;
+  padding: 14px 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+
+}
+
+#loginform{
+  color: white;
+  margin-left: 5px;
+  width: 325%;
+  height: 30%;
+
+}
+
+#loginformpsw{
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.logel a {
+  float: left;
+  font-size: 100%;
+  margin-left: 5px;
+  margin-top: 40px;
+
+}
+
+.carbookingform{
+  margin: auto;
+  border: 3px solid grey;
+  color: white;
+  background-color: #000033;
+  width: 500px;
+}
+
+#decarel{
+  float: left;
+  width: 308%;
+  margin-left: 5px;
+
+}
+
+#cararr{
+  float: left;
+  margin-left: 5px;
+}
+
+#carret{
+  float: left;
+  margin-left: 5px;
+}
+
+#carptime{
+  float: left;
+  margin-left: 5px;
+  margin-right: 6px;
+  margin-top: 0px;
+}
+
+#cardtime{
+  float: left;
+  margin-left: 5px;
+  margin-right: 6px;
+  margin-top: 0px;
+}
+
+.cruisebooking{
+  border: 3px solid grey;
+  width: 400px;
+  margin:auto;
+  font-size: 130%;
+  color: white;
+  background-color: #000033;
+}
+
+#cruisedepdes{
+  width: 200%;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+#cruisedepmon{
+  margin-left: 5px;
+  margin-bottom: 10px;
+  }
+
+#cruisedmin{
+  margin-bottom: 12px;
+  margin-left: 5px;
+  margin-right: 15px;
+  float: left;
+}
+
+#cruisedmax{
+  margin-bottom: 12px;
+  margin-left: 5px;
+  margin-right: 15px;
+  float: left;
+}
+
+#cruisesub{
+  margin-top: 15px;
+}
+
+#registrationform{
+  color: #000033;
+  background-color: white;
+  margin: auto;
+
+}
+
+#registrationform label{
+  width: 200px;
+  display: inline-block;
+}
+#centerregistration{
+  margin-left: 3%;
+}
+
+#registrationheader{
+  color: red;
+  margin-left: 3%;
+}
+
+.findagrouphead{
+  margin:auto;
+  text-align: center;
+  color: red;
+  font-size: 100%;
+}

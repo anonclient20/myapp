@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "router.js",
+  "scripts": {
+    "devStart": "nodemon router.js"
+  },
+  "keywords": [],
+  "author": "Sean Carr",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.6"
+  }
+}

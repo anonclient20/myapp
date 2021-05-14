@@ -62,8 +62,19 @@ app.post("/registration.html", function(req, res){
       ppCountry: req.body.ppCountry,
       psw: req.body.psw
     })
-    newUser.save();
-    res.redirect('login.html');
+    bcrypt.genSalt(10, (err, salt) =>
+      bcrypt.hash(newUser.psw, salt, (err, hash)=>{
+        if (err) throw err;
+
+        newUser.psw= hash;
+        newUser.save()
+        .then(user => {
+          res.redirect('login.html');
+        })
+        .catch(err=> console.log (err));
+      }))
+
+
 })
 
 

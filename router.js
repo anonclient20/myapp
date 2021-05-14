@@ -31,7 +31,8 @@ const userSchema = {
   ppExpDate: String, //date again
   ppNationality: String,
   ppCountry: String,
-  psw: String
+  psw: String,
+  psw2: String
 }
 
 const user = mongoose.model("user", userSchema);
@@ -60,8 +61,16 @@ app.post("/registration.html", function(req, res){
       ppExpDate: req.body.ppExpDate,
       ppNationality: req.body.ppNationality,
       ppCountry: req.body.ppCountry,
-      psw: req.body.psw
+      psw: req.body.psw,
+
     })
+    let password= newUser.psw
+    let password2= req.body.psw2
+
+    if(password !== password2){
+      res.send ("The passwords you have entered don't match. Please click the back arrow on your browser and retry.")
+    } else {
+
     bcrypt.genSalt(10, (err, salt) =>
       bcrypt.hash(newUser.psw, salt, (err, hash)=>{
         if (err) throw err;
@@ -73,7 +82,7 @@ app.post("/registration.html", function(req, res){
         })
         .catch(err=> console.log (err));
       }))
-
+    }
 
 })
 

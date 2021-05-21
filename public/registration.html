@@ -44,11 +44,12 @@
           <br>
 
           <label for="gender"> Gender:*</label>
-          <input type="radio" id="male" name="gender" value="male">
-          <label for="male">Male</label>
-          <input type="radio" id="female" name="gender" value="female">
-          <label for="female">Female</label><br>
-
+          <select id="gender" name="gender" required>
+            <option value= "male"> Male </option>
+            <option value= "female"> Female </option>
+            <option value= "other"> Other </options>
+          </select>
+          <br>
           <label for="email">Email Address:*</label>
           <input type="text" id="email" name="email" required><br><br>
 
